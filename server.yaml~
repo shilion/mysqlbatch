@@ -1,0 +1,17 @@
+servers:
+  server_0_499:
+    host:ailuntan.xxx
+    port:3306
+    user:test
+    passwd:ailuntan
+    shardbegin:0
+    shardend:499
+    db:batchtest
+  server_500_999:
+    host:ailuntan.xxx
+    port:3306
+    user:test
+    passwd:ailuntan
+    shardbegin:500
+    shardend:999
+    db:batchtest
